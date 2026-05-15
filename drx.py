@@ -44,13 +44,13 @@ CONFIG = {
     "max_time": 240,
     "max_slots": 5,
     "maintenance": False,
-    "footer": "@DRX_POWER",
+    "footer": "Mr_Rudra",
     "cooldown": 60,  # Default cooldown 60 seconds (Ise aap /customize se change kar sakenge)
     "feedback_group_id": -1003906465304, # Apne group ki ID yahan dalein
 }
 # --- [ EXPIRY CONFIGURATION ] ---
 # Format: datetime(Year, Month, Day, Hour, Minute, Second)
-SCRIPT_EXPIRY = datetime(2026, 5, 15, 12, 30, 30) 
+SCRIPT_EXPIRY = datetime(2099, 12, 31, 12, 0, 0)
 
 # --- [ GLOBAL EXPIRY CHECK ] ---
 # Ye handler har message par trigger hoga aur agar script expire hai to reply karega
@@ -58,7 +58,7 @@ SCRIPT_EXPIRY = datetime(2026, 5, 15, 12, 30, 30)
 def handle_expired_script(message):
     bot.reply_to(
         message, 
-        "⚠️ <b>SCRIPT EXPIRE OWNER TO BUY PREMIUM SCRIPT @LAXXYPLAYZZ</b>", 
+        "⚠️ <b>SCRIPT EXPIRE OWNER TO BUY PREMIUM SCRIPT @Chandan_Sinhaaa</b>", 
         parse_mode="HTML")
         
 def is_script_expired():
@@ -140,7 +140,7 @@ def send_welcome_pro(message):
     status = "Authorized ✅" if has_access(user_id) else "No Plan ❌"
     
     res = (
-        f"🔥 <b>𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 𝐃𝐑𝐗-𝐏𝐎𝐖𝐄𝐑</b>\n"
+        f"🔥 <b>𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐓𝐎 Cheats Store</b>\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
         f"🚀 <b>𝐒𝐭𝐚𝐭𝐮𝐬:</b> <b>{status}</b>\n"
         f"👤 <b>𝐘𝐨𝐮𝐫 𝐈𝐃:</b> <code>{user_id}</code>\n"
